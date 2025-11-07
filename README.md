@@ -19,20 +19,18 @@ Set up ESP32 and Arduino enviornment. Execute sketch " Wifiscanner".
 
 ##### AI GPTs used
 
-
 ## Steps I followed
 1. Write the steps you followed here.  This way you can keep track of where you might have messed up if the project does not work. 
 
-## Problems
+## Problems and Solutions
 Note your problems or errors here.  Google any error you may come across, and not what you tried (even if it does not work), and what was the final answer. Document your errors and solutions that worked for you.  
 
-1. E (485) camera: Camera probe failed with error 0x105(ESP_ERR_NOT_FOUND)
+**Problem:** E (485) camera: Camera probe failed with error 0x105(ESP_ERR_NOT_FOUND)
 Camera init failed with error 0x105
- How did I solve: 
+**Solution:**
 
 ### Example Problem
-1. Arduino code will not load on ESP32 Cam.
-   Answer: Camera drivers were incorrect I needed to install the driver: [https://www.wch-ic.com/downloads/CH341SER_ZIP.html](https://github.com/martin-ger/esp32_nat_router).  I used file, "CH341SER.ZIP" and it worked.
-
+**Problem:** Arduino code will not load on ESP32 Cam.
+**Solution:** Camera drivers were incorrect I needed to install the driver: [https://www.wch-ic.com/downloads/CH341SER_ZIP.html](https://github.com/martin-ger/esp32_nat_router).  I used file, "CH341SER.ZIP" and it worked.
 
 ## Final Report
